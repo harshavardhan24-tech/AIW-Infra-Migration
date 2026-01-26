@@ -45,12 +45,14 @@ In this task, you will create a new Azure Storage Account that will be used by M
    - Location: Select **<inject key="Region" enableCopy="false" /> (4)** from the dropdown.
 
    - Preferred storage type: Select **Azure Blob Storage or Azure Data Lake Storage Gen 2 (5)**
+
+   - Primary workload: Keep default.
     
    - Performance: **Standard (6)**
   
    - Redundancy: **Locally-redundant storage (LRS) (7)**
 
-     ![Screenshot of the Azure portal showing the create storage account blade.](Images/E1T1S2.png "Storage account settings")
+     ![Screenshot of the Azure portal showing the create storage account blade.](Images/E1T1S2-new.png "Storage account settings")
 
 3. Select **Review + create (8)**, then select **Create**.
 
@@ -194,8 +196,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
      - Virtual machines: Select the **smarthotelweb1**, and **smarthotelweb2** virtual machines **(3)**.
 
-
-      ![](Images/E1T3S3.png)
+       ![](Images/E1T3S3.png)
 
 5. On the **Target settings** tab, select the below information:
 
