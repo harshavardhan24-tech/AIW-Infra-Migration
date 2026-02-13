@@ -215,4 +215,4 @@ In this lab, you have completed the following:
 
 ### You have successfully completed the lab. Click on **Next >>** to proceed with the next lab.
 
-![](./Images/new/next.png)
+![](./Images/2nct.png)
