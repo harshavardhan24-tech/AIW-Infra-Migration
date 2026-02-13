@@ -10,7 +10,7 @@ Azure Data Studio helps you upgrade to a modern data platform by detecting compa
 
 In this Hands-On Lab, you will use Azure Migrate: Server Assessment to evaluate the on-premises environment. This process includes selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using Azure Migrate dependency visualization. 
  
-## Objective
+## Objectives
 
 - **Discover your Windows Server:** Leverage the Azure Migrate Appliance to comprehensively discover and assess your Windows Server environment with Hyper-V, enabling detailed analysis and readiness evaluation for a seamless migration to Azure.
 
@@ -18,7 +18,7 @@ In this Hands-On Lab, you will use Azure Migrate: Server Assessment to evaluate 
 
 - **Perform database assessments:** Use the Azure SQL Migration extension in Azure Data Studio to assess the on-premises database named WideWorldImporters for Azure readiness. Evaluate performance metrics, compatibility issues, and dependencies to create a comprehensive migration strategy that ensures a smooth transition to the Azure platform.
 
-## Prerequisites
+## Pre-requisites
 
 Participants should have:
 
@@ -57,7 +57,7 @@ The lab architecture involves integrating on-premises infrastructure with Azure 
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
-![](./Images/lab-guide(1).png)
+![](./Images/new/vm.png)
 
 ### Virtual Machine & Lab Guide
  
@@ -67,43 +67,43 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![](./Images/env1-2009.png)
+![](./Images/new/env.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![](./Images/split-2009.png)
+![](./Images/new/split.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
  
-![](./Images/resources-2009.png)
+![](./Images/new/res.png)
 
 ## Lab Guide Zoom In/Zoom Out
 
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-![Manage Your Virtual Machine](./Images/labzoom-1.png)
+![Manage Your Virtual Machine](./Images/new/zoom.png)
    
 ## Login to Azure Portal
  
-1. On your virtual machine, click on the Azure Portal icon as shown below:
+1. On your **LabVM**, click on the **Azure Portal** icon as shown below:
  
-   ![](./Images/GS1.png)
+   ![](./Images/new/azure.png)
  
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials and click on **Next (2)**:
  
-   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject> **(1)**
  
-     ![](./Images/GS2.png)
+     ![](./Images/new/email.png)
  
-3. Next, provide your password:
+3. Next, provide your temporary password and click on **Sign in (2)**:
+
+   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject> **(1)**
  
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
- 
-     ![](./Images/GS3.png)
+     ![](./Images/new/pass.png)
  
 4. If you see the pop-up **Stay Signed in?**, click **No**.
 
@@ -121,8 +121,8 @@ Learner Support Contacts:
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-Now, click on **Next** from the lower right corner to move on to the next page.
+Now, click on **Next >>** from the lower right corner to move on to the next page.
 
-![](./Images/next-page-2009.png)
+![](./Images/new/next.png)
 
 ### Happy Learning!!
