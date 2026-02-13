@@ -175,7 +175,9 @@ Azure Migrate dependency visualization helps you identify and map these dependen
 
 1. Minimize the Virtual Machine connection window for the **SmartHotelWeb1 VM**. Connect to the **smarthotelweb2 VM** and repeat the installation process (steps 10-21) for both agents (the administrator password is the same as for smarthotelweb1). Minimize the virtual machine connection window for the **smarthotelweb2 VM** once the installation of agents is done.
 
-1. On you HostVM, open a command prompt using the desktop shortcut.  
+1. On you HostVM, type **cmd (1)** in the search bar and select **Command Prompt (2)** from the results to open a terminal window.  
+
+    ![](Images/new/e1.png)
 
     > **Note:** The SmartHotelHost runs Windows Server 2019 with the Windows Subsystem for Linux enabled. This allows the command prompt to be used as an SSH client. More info of supported Linux on Azure can be found here: https://Azure.com/Linux. 
 
@@ -185,7 +187,9 @@ Azure Migrate dependency visualization helps you identify and map these dependen
     ssh demouser@192.168.0.8
     ```
 
-1. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotel Admin Password" />**.
+    > **Note:** If Ctrl + V does not work in Command Prompt, right-click inside the window paste the command.
+
+1. Enter `yes` when prompted whether to connect. Use the password **<inject key="SmartHotel Admin Password" />**.
 
     ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/L2T2S23-2009.png "SSH session with UbuntuWAF")
 
@@ -197,13 +201,19 @@ Azure Migrate dependency visualization helps you identify and map these dependen
 
     > This gives the terminal session elevated privileges.
 
-1. Enter the following command, substituting \<Workspace ID\> and \<Primary Key\> with the values copied previously. Answer **Yes** when prompted to restart services during package upgrades without asking.  
+1. Enter the following command, substituting **\<Workspace ID\>** and **\<Primary Key\>** with the values copied previously. Answer **Yes** when prompted to **Restart services during package upgrades without asking ?**. You may need to use the **<** arrow keys on your keyboard to choose Yes
 
     ```
     wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh -w <Workspace ID> -s <Primary Key>
     ```
     
-    > **Note:** If you receive any error while running the above command, run the below command to update the packages and perform **Step 28** again.
+    ![](Images/new/e2.png)
+
+    > **Note:** If you encounter any error related to the deprecation of the log analytics agent while executing the command above, you can ignore it and proceed.
+
+    ![](Images/new/e3.png)
+
+    > **Note:** If you receive any error while running the above command, run the below command to update the packages and perform **Step 27** again.
      
      ```
      apt-get update
@@ -227,16 +237,15 @@ Azure Migrate dependency visualization helps you identify and map these dependen
     sh InstallDependencyAgent-Linux64.bin -s
     ```
 
-    ![Screenshot showing that the Dependency Agent install on Linux was successful.](Images/L2T2S31-2009.png "Dependency Agent installation was successful")
+    ![](Images/new/e4.png)
     
+1. Return to the **SmartHotel VMs** group in the **Azure Migrate** portal. Refresh the page using the **browser refresh button** (not the one in the portal UI). Verify that the **Dependency Agent** status for **smarthotelweb1**, **smarthotelweb2**, and **UbuntuWAF** shows as Installed. It may take up to **20 minutes** for the status to update after installation.
 
-1. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
+    ![](Images/new/e6.png)
 
-    ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/upd-dependency-viz-installed.png "Dependency agent installed")
-   
      >**Note:** If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
-1. Select **View dependencies**.
+1. In the **SmartHotel VMs** group page, click **View dependencies** to open the dependency visualization.
 
     ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/upd-view-dependencies.png "View dependencies")
    
@@ -244,10 +253,16 @@ Azure Migrate dependency visualization helps you identify and map these dependen
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
     
+    ![](Images/new/e7.png)
+
 ## Summary 
 
-In this lab, you created a migration assessment for the SmartHotel application using Azure Migrate and configured dependency visualization by creating a Log Analytics workspace and installing agents on the VMs to be migrated.
+In this lab, you have completed the following:
+
+- Created a migration assessment.
+
+- Configured dependency visualization for discovered resources.
 
 ### You have successfully completed the lab. Click on **Next >>** to proceed with the next lab.
 
-![](./Images/next-page-2009.png)
+![](./Images/new/next.png)
