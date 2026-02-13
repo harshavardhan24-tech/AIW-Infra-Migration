@@ -113,11 +113,11 @@ In this task, you will deploy the Azure Migrate appliance in the on-premises Hyp
 
 1. Now, follow the instructions below to complete the login process.
     
-    - At first, you will be presented with a **Continue with Azure login** pop-up. On the **Continue with Azure login** pop-up dialog, click on **Copy code & Login**.
+    - At first, you will be presented with a **Continue with Azure login** pop-up. On the **Continue with Azure login** pop-up dialog, copy the code in the **Notepad** and click on **Copy code & Login**.
    
         ![](Images/DAA-image19.png)
   
-    - This will open an Azure login prompt in a new browser tab (if it doesn't appear, make sure the pop-up blocker in the browser is disabled), paste the **code (1)** and click on **Next (2)**. You will then be asked for your Azure portal credentials to complete the login process.
+    - This will open an Azure login prompt in a new browser tab (if it doesn't appear, make sure the pop-up blocker in the browser is disabled), paste the **Code (1)** which you copied in the notepad and click on **Next (2)**. You will then be asked for your Azure portal credentials to complete the login process.
 
         ![](Images/DAA-image20.png)
 
