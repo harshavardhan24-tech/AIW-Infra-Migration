@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "Building-the-business-migration-case-with-Windows-Server-and-SQL-Server",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/refs/heads/MS-Innovation/Labfiles/custom-gettingstarted-MigrationandArc.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/MS-Innovation/Labfiles/custom-ms-spl-discover-your-windows-servers.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/MS-Innovation/Labfiles/custom-ms-spl-create-vm-assessment.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Migrating-SQL-databases-to-Azure/refs/heads/ads-migration/Hands-on%20lab/custom-perform-database-assessments.md",
+        "Order": 4
+      },
+        {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Building-the-business-migration-case-with-Windows-Server-and-SQL-Server/Stage/Hands-on%20lab/03-Azure-Arc-enable-on-premises-VM-custom.md",
+        "Order": 5
+      }
+        
+    ]
+  }
+]
