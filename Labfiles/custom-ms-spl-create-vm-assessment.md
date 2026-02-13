@@ -61,7 +61,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-<validation step="958a0343-c7f0-44a3-9d43-131766538a1f" />
+<validation step="144edc9b-9243-4a07-9692-faa649e10518" />
 
 ## Task 2: Configure dependency visualization
 
@@ -267,7 +267,7 @@ Azure Migrate dependency visualization helps you identify and map these dependen
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-<validation step="57f8f164-88e2-4f8b-bac0-8611fd200a88" />
+<validation step="d2d54d53-e9e7-419b-8982-92a36b4ea123" />
 
 ## Summary 
 
@@ -279,4 +279,4 @@ In this lab, you have completed the following:
 
 ### You have successfully completed the lab. Click on **Next >>** to proceed with the next lab.
 
-![](./Images/new/next.png)
+![](./Images/3nct.png)
