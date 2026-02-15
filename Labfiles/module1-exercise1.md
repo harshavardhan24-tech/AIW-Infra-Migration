@@ -25,6 +25,14 @@ In this task, you will explore the Azure Migrate service and understand how the 
  
     ![Screenshot of the Azure migrate overview blade.](Images/hol1-ex-1-s3new.png "Azmigrate Overview blade")
 
+1. On the **Azure Migrate** page, from the left navigation pane, select **All projects (1)**, and then choose **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" /> (2)**.
+ 
+    ![](./Images/AIM-image8.png)
+
+1. On the **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />** page, select the down arrow next to **Start discovery (1)**, then choose **Using appliance (2)**, and select **For Azure (3)**.
+
+   ![](./Images/AIM-image9.png)
+
 3. Under **Migration goals**, click **Servers, databases and web apps (1)** and then select **Discover (2)** and choose **Using appliance (3)** under **Azure Migrate: Discovery and assessment** to open the **Discover** blade.
  
     ![](Images/18-04-2024(1)new.png)
