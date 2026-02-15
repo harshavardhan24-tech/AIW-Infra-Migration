@@ -32,10 +32,6 @@ In this task, you will explore the Azure Migrate service and understand how the 
 1. On the **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />** page, select the down arrow next to **Start discovery (1)**, then choose **Using appliance (2)**, and select **For Azure (3)**.
 
    ![](./Images/AIM-image9.png)
-
-3. Under **Migration goals**, click **Servers, databases and web apps (1)** and then select **Discover (2)** and choose **Using appliance (3)** under **Azure Migrate: Discovery and assessment** to open the **Discover** blade.
- 
-    ![](Images/18-04-2024(1)new.png)
  
 4. In the **Discover** blade, under **Are your servers virtualized? (1)**, select **Yes, with Hyper-V (2)** from the drop-down list.
 
@@ -244,10 +240,18 @@ In this task, you will configure discovery settings, initiate VM discovery, and 
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/30052025(6)new.png "Azure Migrate login code")
 
-8. Return to the **JumpVM**, open the **Azure Migrate** blade in the Azure portal, select **Servers, databases, and web apps (1)**, click **Refresh (2)**, and wait until **7 servers** are shown under **Discovered servers (3)**. This process may take several minutes.
+1. Return to the **LabVM**, then navigate to the **Azure Migrate** page in the Azure portal. From the left navigation pane, select **All projects**, and then choose **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />** and scroll down. Then click on **Click here** to view details in the old experience.
+
+     ![](Images/AIM-image40.png)
+
+    >**Note:** Some Azure Migrate capabilities used in this lab are currently not fully supported in the new portal experience.To ensure a consistent experience and complete all lab objectives, we are performing this lab using the classic Azure Migrate experience.
+
+1. On the **Azure Migrate** page, under Migration goals, select **Servers, databases and web apps (1)**, then click **Refresh (2)**. In the Azure Migrate: Discovery and assessment panel, you should see a count of **Discovered servers (3)**. If discovery is still in progress, continue clicking Refresh periodically until all 7 servers are shown. This may take several minutes.
+
+    > **Note:** **Wait for the discovery process to complete before proceeding to the next Task**.
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/30052025(8)new.png "Azure Migrate login code")
-     
+
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Inline Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
