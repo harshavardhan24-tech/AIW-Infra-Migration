@@ -242,7 +242,7 @@ In this task, you will configure discovery settings, initiate VM discovery, and 
 
 1. Return to the **LabVM**, then navigate to the **Azure Migrate** page in the Azure portal. From the left navigation pane, select **All projects**, and then choose **SmartHotelMigration<inject key="DeploymentID" enableCopy="false" />** and scroll down. Then click on **Click here** to view details in the old experience.
 
-     ![](Images/AIM-image40.png)
+     ![](././AIM-image40.png)
 
     >**Note:** Some Azure Migrate capabilities used in this lab are currently not fully supported in the new portal experience.To ensure a consistent experience and complete all lab objectives, we are performing this lab using the classic Azure Migrate experience.
 
