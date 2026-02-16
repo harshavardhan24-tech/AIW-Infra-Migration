@@ -1,6 +1,10 @@
 
 # HOL3: Onboard On-premises servers to Azure Arc-Enabled Server
 
+## Exercise 1: Run workloads anywhere with Azure Cloud Services
+
+In this Exercise, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure.
+
 ### Estimated Duration: 30 Minutes
 
 ## Overview
@@ -10,18 +14,13 @@ Azure Arc allows you to manage your hybrid IT estate with a single pane of glass
 
 ## Objectives
 
-In this HOL, you will complete the following exercises:
+In this Exercise, you will complete the following task:
 
-- **Exercise 1:** Run workloads anywhere with Azure cloud services
-- **Exercise 2:** Configure ASR for On-premises Infrastructure
-- **Exercise 3:** Setup Test Failover
-- **Exercise 4:** Failover the Infrastructure to Azure Cloud
-- **Exercise 5:** Enable Microsoft Defender for Cloud, Microsoft Sentinel, Azure Monitor, and setup Log Analytics for each resource.
-- **Exercise 6:** Business Case Analysis Capability (Read-only)
+- Task 1: Run workloads anywhere with Azure Cloud Services
 
-### Exercise 1: Run workloads anywhere with Azure Cloud Services
+### Task 1: Run workloads anywhere with Azure Cloud Services
 
-In this exercise, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
+In this task, you will deploy and configure the Azure Connected Machine agent on a Windows machine hosted outside of Azure, to ensure that it can be managed through Azure Arc-enabled servers.
 
 1. In the search bar of the Azure portal, type **Azure arc (1)** and select **Azure Arc (2)** from suggestions under Services, as shown below:
    
