@@ -1,6 +1,6 @@
 # Lab 01: Discover your Windows Server
 
-### Estimated Duration: 90 Minutes
+### Estimated Duration: 80 Minutes
 
 In this lab, you will discover on-prem servers using the Azure Migrate Appliance. The Azure Migrate appliance is a tool provided by Microsoft to assist in the discovery and assessment of on-premises infrastructure for migration to Azure. It collects detailed information about servers, applications, databases, and workloads in your environment, including configuration, performance, and dependencies.
 
@@ -27,7 +27,7 @@ In this task, you will set up your Azure Migrate project to discover the Hyper-V
 
     ![](Images/new/1.png)
 
-1. On the SmartHotelMigration page, select the down arrow next to **Start discovery (1)**, then choose **Using appliance (2)**, and select For **Azure (3)**.
+1. On the SmartHotelMigration page, select the down arrow next to **Start discovery (1)**, then choose **Using appliance (2)**, and select **For** **Azure (3)**.
 
     ![](Images/new/2.png)
 
@@ -137,7 +137,7 @@ In this task, you will deploy the Azure Migrate appliance in the on-premises Hyp
 
 1. Once signed in, return to the Azure Migrate Appliance tab the appliance registration will begin automatically and display The appliance has been successfully registered once complete.
 
-    ![](Images/DAA-image24.png)
+    ![](Images/DAA-image24up.png)
 
 1. In **Step 1: Provide Hyper-V host credentials for the discovery of Hyper-V VMs** under **2. Manage credentials and discovery sources**, select **Add credentials**.
 

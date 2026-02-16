@@ -57,7 +57,7 @@ The lab architecture involves integrating on-premises infrastructure with Azure 
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
 
-![](./Images/lab-guide(1).png)
+![](./Images/customguidee.png)
 
 ### Virtual Machine & Lab Guide
  

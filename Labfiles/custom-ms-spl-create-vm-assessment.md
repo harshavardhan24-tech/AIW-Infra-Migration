@@ -1,8 +1,8 @@
 # Lab 02: Set up your environment on Azure to migrate servers
 
-### Estimated Duration: 90 Minutes
+### Estimated Duration: 80 Minutes
 
-In this lab, you will use Azure Migrate: Server Assessment to assess the already discovered on-prem servers by creating a migration assessment in your Azure Migrate project and configuring dependencies for migration. Azure Migrate assessment is a feature within the Azure Migrate service that helps evaluate the readiness and suitability of on-premises workloads for migration to Azure. It analyzes data collected during the discovery phase to provide insights into performance, cost estimation, and compatibility
+In this lab, you will use Azure Migrate: Server Assessment to assess the already discovered on-prem servers by creating a migration assessment in your Azure Migrate project and configuring dependencies for migration. Azure Migrate assessment is a feature within the Azure Migrate service that helps evaluate the readiness and suitability of on-premises workloads for migration to Azure. It analyzes data collected during the discovery phase to provide insights into performance, cost estimation, and compatibility.
 
 ## Lab Objectives
 
@@ -48,7 +48,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
     ![](Images/new/q3.png)
 
-1. In Azure Migrate, on the **Servers, databases, and web apps page, Expand Migration goals (1)** from the left navigation menu. Select **Servers, databases and web apps (2)**. Click on **Refresh (3)** periodically until the number of assessments under **Assessments > Total** updates to 1 (This may take a few minutes). Then click on the nuber **1 (4)**.
+1. In Azure Migrate, on the **Servers, databases, and web apps page, Expand Migration goals (1)** from the left navigation menu. Select **Servers, databases and web apps (2)**. Click on **Refresh (3)** periodically until the number of assessments under **Assessments > Total** updates to 1 (This may take a few minutes). Then click on the number **1 (4)**.
 
     ![](Images/new/q4.png)
 
@@ -182,7 +182,7 @@ Azure Migrate dependency visualization helps you identify and map these dependen
 
 1. Minimize the Virtual Machine connection window for the **SmartHotelWeb1 VM**. Connect to the **smarthotelweb2 VM** and repeat the installation process (steps 10-21) for both agents (the administrator password is the same as for smarthotelweb1). Minimize the virtual machine connection window for the **smarthotelweb2 VM** once the installation of agents is done.
 
-1. On you HostVM, type **cmd (1)** in the search bar and select **Command Prompt (2)** from the results to open a terminal window.  
+1. On your HostVM, type **cmd (1)** in the search bar and select **Command Prompt (2)** from the results to open a terminal window.  
 
     ![](Images/new/e1.png)
 
