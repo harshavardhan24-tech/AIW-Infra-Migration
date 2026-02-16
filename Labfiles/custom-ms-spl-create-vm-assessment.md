@@ -246,9 +246,11 @@ Azure Migrate dependency visualization helps you identify and map these dependen
 
     ![](Images/new/e4.png)
     
-1. Return to the **SmartHotel VMs** group in the **Azure Migrate** portal. Refresh the page using the **browser refresh button** (not the one in the portal UI). Verify that the **Dependency Agent** status for **smarthotelweb1**, **smarthotelweb2**, and **UbuntuWAF** shows as Installed. It may take up to **20 minutes** for the status to update after installation.
+1. Return to the **SmartHotel VMs** group in the **Azure Migrate** portal. Refresh the page using the **browser refresh button** (not the one in the portal UI). Verify that the **Dependency Agent** status for **smarthotelweb1**, **smarthotelweb2**, and **UbuntuWAF** shows as Installed. It may take up to **20-30 minutes** for the status to update after installation.
 
     ![](Images/new/e6.png)
+
+    >**Note:** If it takes more than 30 minutes, try opening it in a private window.
 
      >**Note:** If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
