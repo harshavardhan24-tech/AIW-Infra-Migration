@@ -1,8 +1,8 @@
 # Lab 02: Set up your environment on Azure to migrate servers
 
-### Estimated Duration: 90 Minutes
+### Estimated Duration: 80 Minutes
 
-In this lab, you will use Azure Migrate: Server Assessment to assess the already discovered on-prem servers by creating a migration assessment in your Azure Migrate project and configuring dependencies for migration. Azure Migrate assessment is a feature within the Azure Migrate service that helps evaluate the readiness and suitability of on-premises workloads for migration to Azure. It analyzes data collected during the discovery phase to provide insights into performance, cost estimation, and compatibility
+In this lab, you will use Azure Migrate: Server Assessment to assess the already discovered on-prem servers by creating a migration assessment in your Azure Migrate project and configuring dependencies for migration. Azure Migrate assessment is a feature within the Azure Migrate service that helps evaluate the readiness and suitability of on-premises workloads for migration to Azure. It analyzes data collected during the discovery phase to provide insights into performance, cost estimation, and compatibility.
 
 ## Lab Objectives
 
@@ -48,7 +48,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
     ![](Images/new/q3.png)
 
-1. In Azure Migrate, on the **Servers, databases, and web apps page, Expand Migration goals (1)** from the left navigation menu. Select **Servers, databases and web apps (2)**. Click on **Refresh (3)** periodically until the number of assessments under **Assessments > Total** updates to 1 (This may take a few minutes). Then click on the nuber **1 (4)**.
+1. In Azure Migrate, on the **Servers, databases, and web apps page, Expand Migration goals (1)** from the left navigation menu. Select **Servers, databases and web apps (2)**. Click on **Refresh (3)** periodically until the number of assessments under **Assessments > Total** updates to 1 (This may take a few minutes). Then click on the number **1 (4)**.
 
     ![](Images/new/q4.png)
 
@@ -182,7 +182,7 @@ Azure Migrate dependency visualization helps you identify and map these dependen
 
 1. Minimize the Virtual Machine connection window for the **SmartHotelWeb1 VM**. Connect to the **smarthotelweb2 VM** and repeat the installation process (steps 10-21) for both agents (the administrator password is the same as for smarthotelweb1). Minimize the virtual machine connection window for the **smarthotelweb2 VM** once the installation of agents is done.
 
-1. On you HostVM, type **cmd (1)** in the search bar and select **Command Prompt (2)** from the results to open a terminal window.  
+1. On your HostVM, type **cmd (1)** in the search bar and select **Command Prompt (2)** from the results to open a terminal window.  
 
     ![](Images/new/e1.png)
 
@@ -246,9 +246,11 @@ Azure Migrate dependency visualization helps you identify and map these dependen
 
     ![](Images/new/e4.png)
     
-1. Return to the **SmartHotel VMs** group in the **Azure Migrate** portal. Refresh the page using the **browser refresh button** (not the one in the portal UI). Verify that the **Dependency Agent** status for **smarthotelweb1**, **smarthotelweb2**, and **UbuntuWAF** shows as Installed. It may take up to **20 minutes** for the status to update after installation.
+1. Return to the **SmartHotel VMs** group in the **Azure Migrate** portal. Refresh the page using the **browser refresh button** (not the one in the portal UI). Verify that the **Dependency Agent** status for **smarthotelweb1**, **smarthotelweb2**, and **UbuntuWAF** shows as Installed. It may take up to **20-30 minutes** for the status to update after installation.
 
     ![](Images/new/e6.png)
+
+    >**Note:** If it takes more than 30 minutes, try opening it in a private window.
 
      >**Note:** If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
