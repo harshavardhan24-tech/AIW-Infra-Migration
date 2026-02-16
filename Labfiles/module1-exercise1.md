@@ -1,4 +1,8 @@
-# HOL1: Exercise 1: Migrating Windows & SQL Server workloads
+# HOL1: Migrating Windows & SQL Server workloads
+
+## Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
+
+In this Exercise, you will explore an Azure Migrate project and the default built-in tools for server assessment.
 
 ### Estimated duration: 60 Minutes
 
@@ -12,7 +16,7 @@ In this Exercise, you will complete the following task:
 
 - Task 1: Discovery, Assess, and Plan: Evaluate your current environment
 
-### Task 1: Discovery, Assess, and Plan: Evaluate your current environment
+## Task 1: Discovery, Assess, and Plan: Evaluate your current environment
 
 In this task, you will explore an Azure Migrate project and the default built-in tools for server assessment and server migration. You will also configure the Azure Migrate appliance in the on-premises Hyper-V environment and start the migration assessment discovery process using Azure Migrate.
 

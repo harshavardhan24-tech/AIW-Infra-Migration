@@ -1,4 +1,8 @@
-# HOL2: Exercise 1: Migrate and Modernize Linux & OSS DB workloads to Azure
+# HOL2: Migrate and Modernize Linux & OSS DB workloads to Azure
+
+## Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
+
+In this exercise, you will review the already discovered server on your Azure Migrate project.
 
 ### Estimated duration: 15 Minutes
 
@@ -8,16 +12,11 @@ In this HOL, you will use Azure Migrate: Server Assessment to assess the on-prem
 
 ## Objectives
 
-In this HOL, you will complete the following exercises:
+In this Exercise, you will complete the following task:
 
-- **Exercise 1:** Migrate and Modernize Linux & OSS DB workloads to Azure
-- **Exercise 2:** Set up your environment on Azure to Migrate Servers
-- **Exercise 3:** Migrating your applications and data using Microsoft services and tools, such as Azure Migrate, the Azure Hybrid Benefit, and additional programs
-- **Exercise 4:** Optimizing newly Migrated Workloads, and Emphasizing commonalities across all Stacks
+- Task 1: Review the already discovered and assessed environment in Azure migrate
 
-## Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
-
-In this exercise, you will review the already discovered server on your Azure Migrate project.
+- Task 2: Review your on-prem Hyper-V Linux Server and OSS DB.
 
 ### Task 1: Review the already discovered and assessed environment in Azure migrate
 
