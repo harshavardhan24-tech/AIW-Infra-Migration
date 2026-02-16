@@ -42,7 +42,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
         > **Note:** There is no need to include the **smarthotelSQL1**, **AzureMigrateAppliance** and other VMs in the assessment, since they will not be migrated to Azure.
     
-        > **Note:** Please note that even though we are adding a **redhat** VM to the assessment here, we will not be setting up our environment in the RedHat VM in this exercise. Users will review the assessment and perform all the steps for environment setup in HOL2.
+        > **Note:** Although we are adding the **redhat** VM to the assessment, it is included only to illustrate multi-OS assessment capabilities within Azure Migrate. No additional configuration or migration activities will be performed on this VM in this lab series.
     
 1. Click on **Create assessment** to create the assessment. 
 

@@ -6,7 +6,9 @@
 
 Azure Migrate is Microsoft's centralized platform designed to assist organizations in planning, assessing, and executing their migration journey to Azure. It provides a suite of tools and features to simplify the process of moving on-premises workloads, applications, databases, and virtual machines to the Azure cloud.
 
-Azure Data Studio helps you upgrade to a modern data platform by detecting compatibility issues that can impact database functionality in your new version of SQL Server or Azure SQL Database. Azure Data Studio recommends performance and reliability improvements for your target environment and allows you to move your schema, data, and uncontained objects from your source server to your target server.
+Azure Data Studio helps you upgrade to a modern data platform by detecting compatibility issues that can impact database functionality in your new version of SQL Server or Azure SQL Database. Azure Data Studio helps evaluate database compatibility, identify potential migration blockers, and assess readiness for Azure SQL solutions.
+
+Additionally, Azure Arc enables hybrid management by extending Azure services and governance capabilities to on-premises resources, allowing organizations to manage servers consistently across environments.
 
 In this Hands-On Lab, you will use Azure Migrate: Server Assessment to evaluate the on-premises environment. This process includes selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, and using Azure Migrate dependency visualization. 
  
@@ -17,6 +19,8 @@ In this Hands-On Lab, you will use Azure Migrate: Server Assessment to evaluate 
 - **Set up your environment on Azure to migrate servers:** Develop a migration assessment and configure dependency visualization to facilitate seamless system transition and dependency analysis for seamless server migration. This includes preparing the discovered on-premises servers, configuring necessary permissions, deploying tools, and ensuring connectivity between the on-premises infrastructure and Azure.
 
 - **Perform database assessments:** Use the Azure SQL Migration extension in Azure Data Studio to assess the on-premises database named WideWorldImporters for Azure readiness. Evaluate performance metrics, compatibility issues, and dependencies to create a comprehensive migration strategy that ensures a smooth transition to the Azure platform.
+
+- **Hybrid management with Azure Arc:** Onboard an on-premises Windows machine using Azure Arc to enable centralized management, governance, and monitoring from the Azure portal, demonstrating hybrid cloud management capabilities.
 
 ## Prerequisites
 
@@ -29,7 +33,7 @@ Participants should have:
 
 ## Architecture
 
-The lab architecture involves integrating on-premises infrastructure with Azure to enable the discovery and assessment of Windows Servers and SQL Server databases. The Azure Migrate Appliance, deployed on-premises, acts as the key component for discovering and collecting metadata about servers and databases. This data is securely transmitted to an Azure Migrate project, which facilitates assessments to evaluate migration readiness. The architecture also includes Azure Data Studio for database assessments, leveraging its SQL Server Migration extension to analyze database compatibility with Azure SQL solutions. Azure resources, such as resource groups and Azure SQL databases, are set up to act as the target environment, ensuring a seamless workflow from discovery to assessment while maintaining data integrity and security.
+The lab architecture involves integrating on-premises infrastructure with Azure to enable the discovery and assessment of Windows Servers and SQL Server databases. The Azure Migrate Appliance, deployed on-premises, acts as the key component for discovering and collecting metadata about servers and databases. This data is securely transmitted to an Azure Migrate project, which facilitates assessments to evaluate migration readiness. The architecture also includes Azure Data Studio for database assessments, leveraging its SQL Server Migration extension to analyze database compatibility with Azure SQL solutions. Azure resources, such as resource groups and assessment projects, are used to evaluate readiness and compare migration targets, ensuring a structured workflow from discovery to assessment while maintaining data integrity and security.
 
 ## Architecture Diagram
 

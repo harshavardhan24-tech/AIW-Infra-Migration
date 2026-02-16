@@ -201,7 +201,9 @@ In this task, you will deploy the Azure Migrate appliance in the on-premises Hyp
 
     ![](Images/new/9.png)
 
-1. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal.  Select **Servers, databases, and web apps (1)**, then select **Refresh (2)**.  Under **Azure Migrate: Servers, databases and web apps**, you should see a **count (3)** of the number of servers discovered so far. If discovery is still in progress, select **Refresh** periodically until 7 discovered servers are shown. This may take several minutes.
+1. Return to the **JumpVM** then to **Azure Migrate** blade in the Azure portal.  Select **Servers, databases, and web apps (1)**, then select **Refresh (2)**.  Under **Azure Migrate: Servers, databases and web apps**, you should see a **count (3)** of the number of servers discovered so far. 
+
+    > **Note:** If discovery is still in progress, select **Refresh** periodically until 7 discovered servers are shown. This may take around 5-10 minutes.
 
     ![](Images/DAA-image31(1).png)
 
