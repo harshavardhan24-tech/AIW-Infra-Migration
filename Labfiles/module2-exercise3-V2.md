@@ -1,6 +1,6 @@
 
 
-# HOL2: Exercise 3: Migrating your applications and data using Microsoft services and tools, such as Azure Migrate, the Azure Hybrid Benefit, and additional programs (Optional)
+# HOL 2: Exercise 3: Migrating your applications and data using Microsoft services and tools, such as Azure Migrate, the Azure Hybrid Benefit, and additional programs (Optional)
 
 ### Estimated duration: 50 Minutes
 
