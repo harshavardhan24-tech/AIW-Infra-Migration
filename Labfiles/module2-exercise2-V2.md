@@ -1,4 +1,4 @@
-# HOL2: Exercise 2: Set up your environment on Azure to Migrate Servers (Optional)
+# HOL 2: Exercise 2: Set up your environment on Azure to Migrate Servers (Optional)
 
 ### Estimated duration: 40 Minutes
 
