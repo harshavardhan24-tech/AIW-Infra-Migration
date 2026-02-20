@@ -1,4 +1,4 @@
-# HOL1: Migrating Windows & SQL Server workloads
+# HOL 1: Migrating Windows & SQL Server workloads
 
 ## Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
 
