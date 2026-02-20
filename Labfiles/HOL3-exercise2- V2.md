@@ -1,6 +1,6 @@
 
 
-# HOL3: Exercise 2: Enable Microsoft Defender for Cloud, Microsoft Sentinel, Azure Monitor, and setup Log Analytics (Optional)
+# HOL 3: Exercise 2: Enable Microsoft Defender for Cloud, Microsoft Sentinel, Azure Monitor, and setup Log Analytics (Optional)
 
 ### Estimated duration: 30 Minutes
 
