@@ -1,6 +1,6 @@
 
 
-# HOL3: Onboard On-premises servers to Azure Arc-Enabled Server (Optional)
+# HOL 3: Onboard On-premises servers to Azure Arc-Enabled Server (Optional)
 
 ## Exercise 1: Run workloads anywhere with Azure Cloud Services
 
