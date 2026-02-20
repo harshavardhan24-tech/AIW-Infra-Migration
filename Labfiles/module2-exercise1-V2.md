@@ -1,5 +1,5 @@
 
-# HOL2: Migrate and Modernize Linux & OSS DB workloads to Azure (Optional)
+# HOL 2: Migrate and Modernize Linux & OSS DB workloads to Azure (Optional)
 
 ## Exercise 1: Discovery, Assess, and Plan: Evaluate your current environment
 
