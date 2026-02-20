@@ -1,9 +1,9 @@
 
 # Infrastructure Migration 
 
-### Overall Estimated Duration: 8 Hours
+### Overall Estimated Duration: 160 Minutes
 
-In this hands-on lab, you will migrate and modernize workloads to Azure. You will start by evaluating and migrating Windows and SQL Server workloads using Azure Migrate and Azure Site Recovery. Next, you will replicate and migrate a Red Hat VM and OSS DB workloads, enable Entra ID-based authentication, and connect to Azure Automanage. 
+In this hands-on lab, you will migrate and modernize workloads to Azure. You will start by evaluating and migrating Windows and SQL Server workloads using Azure Migrate and Azure Site Recovery. Next, you will replicate and migrate a Red Hat VM and OSS DB workloads as well
 
 Finally, you will manage a Windows machine with Azure Arc,strengthened monitoring and security by enabling Microsoft Defender for Cloud, Microsoft Sentinel, Azure Monitor, and a Log Analytics workspace for centralized visibility.
 
